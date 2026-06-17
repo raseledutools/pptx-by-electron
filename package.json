@@ -2,6 +2,7 @@
   "name": "pptx-editor-lite",
   "version": "1.0.0",
   "description": "Lightweight PPTX Editor & Viewer for Windows",
+  "author": "PPTX Editor Team",
   "main": "electron/main.js",
   "homepage": "./",
   "scripts": {
@@ -16,6 +17,7 @@
     "appId": "com.pptxeditor.app",
     "productName": "PPTX Editor Lite",
     "copyright": "MIT License",
+    "main": "electron/main.js",
     "win": {
       "target": [
         {
