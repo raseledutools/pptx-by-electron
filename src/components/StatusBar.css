@@ -1,0 +1,15 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 14px;
+  background: var(--bg-3);
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--text-2);
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.status-message { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.status-slides { flex-shrink: 0; color: var(--text-3); }

@@ -1,0 +1,38 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-0: #0f0f17;
+  --bg-1: #1a1a2e;
+  --bg-2: #16213e;
+  --bg-3: #0f3460;
+  --accent: #e94560;
+  --accent2: #533483;
+  --text-1: #e8eaf6;
+  --text-2: #9fa8c9;
+  --text-3: #5c6080;
+  --border: #2a2a45;
+  --hover: #252545;
+  --slide-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg-0);
+  color: var(--text-1);
+  overflow: hidden;
+  height: 100vh;
+  user-select: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.workspace {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
