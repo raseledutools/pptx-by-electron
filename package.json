@@ -17,7 +17,6 @@
     "appId": "com.pptxeditor.app",
     "productName": "PPTX Editor Lite",
     "copyright": "MIT License",
-    "main": "electron/main.js",
     "win": {
       "target": [
         {
